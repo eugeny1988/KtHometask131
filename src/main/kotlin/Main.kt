@@ -39,6 +39,3 @@ fun hoursEnding(number: Int): String {
             else -> "$hours часа $back"
         }
 }
-//fun daysEnding(number: Int):String{
-//
-//}
