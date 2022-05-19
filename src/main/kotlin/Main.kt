@@ -4,7 +4,7 @@ val oneHour = 3600
 val oneDay = oneHour * 24
 val back = "назад"
 fun main() {
-    print(agoToText(seconds))
+    print("Был(а) в сети ${agoToText(seconds)}")
 }
 
 fun agoToText(time: Int): String {
